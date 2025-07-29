@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kurisu55/Myanimelist_REST_API/issues"
   },
-  "homepage": "https://github.com/kurisu55/Myanimelist_REST_API#readme"
+  "homepage": "https://github.com/kurisu55/Myanimelist_REST_API#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
