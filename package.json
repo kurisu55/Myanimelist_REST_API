@@ -19,5 +19,8 @@
   "homepage": "https://github.com/kurisu55/Myanimelist_REST_API#readme",
   "dependencies": {
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
