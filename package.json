@@ -1,0 +1,20 @@
+{
+  "name": "myanimelist_rest_api",
+  "version": "1.0.0",
+  "description": "Trying to build project a REST API Myanimelist",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurisu55/Myanimelist_REST_API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kurisu55/Myanimelist_REST_API/issues"
+  },
+  "homepage": "https://github.com/kurisu55/Myanimelist_REST_API#readme"
+}
