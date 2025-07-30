@@ -1,27 +1,16 @@
 {
-  "name": "myanimelist_rest_api",
-  "version": "1.0.0",
-  "description": "Trying to build project a REST API Myanimelist",
-  "main": "index.js",
+  "name": "myanimelist-rest-api",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ./src/server.js"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kurisu55/Myanimelist_REST_API.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kurisu55/Myanimelist_REST_API/issues"
-  },
-  "homepage": "https://github.com/kurisu55/Myanimelist_REST_API#readme",
   "dependencies": {
-    "express": "^5.1.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.10"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
   }
 }
