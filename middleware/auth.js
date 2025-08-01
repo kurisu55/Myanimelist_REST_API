@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 function apiKeyAuth(req, res, next) {
     const apiKey = req.headers['x-api-key'];
 
@@ -5,7 +7,7 @@ function apiKeyAuth(req, res, next) {
         return res.status(401).json({ message: 'API Key is missing!' });
     }
 
-    if (apiKey !== 'my-anime-api') {
+    if (apiKey !== process.env.X_API_KEY) {
         return res.status(403).json({ message: 'Invalid API Key!' });
     }
 
